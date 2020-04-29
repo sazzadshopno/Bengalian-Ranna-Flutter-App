@@ -1,0 +1,33 @@
+name: recipes
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  shared_preferences: ^0.5.7
+  flutter_launcher_icons: ^0.7.4
+  flutter_spinkit: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true 
+  ios: true
+  image_path: "images/banglalian_ranna.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - load_json/recipes.json
+  fonts:
+    - family: Shorif Jonota
+      fonts:
+        - asset:  fonts/ShorifJonota.ttf
